@@ -1,0 +1,34 @@
+# Zen/Firefox profile .gitignore
+
+# Large/cached databases (regenerate automatically)
+*.sqlite-shm
+*.sqlite-wal
+places.sqlite
+favicons.sqlite
+cookies.sqlite
+webappsstore.sqlite
+storage/
+cache2/
+startupCache/
+thumbnails/
+
+# Session / temporary data
+sessionstore.jsonlz4
+sessionCheckpoints.json
+xulstore.json
+times.json
+
+# Logs and reports
+logs/
+datareporting/
+crashes/
+minidumps/
+
+# Extensions temporary
+extensions/temp/
+addonStartup.json.lz4
+
+# Other
+lock
+parent.lock
+*.bak

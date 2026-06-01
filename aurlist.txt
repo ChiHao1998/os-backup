@@ -1,0 +1,4 @@
+python-pywal16
+sddm-lain-wired-theme
+tty-clock
+zen-browser-bin
